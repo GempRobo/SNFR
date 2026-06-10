@@ -9,9 +9,9 @@ An integrated Ground Penetrating Radar (GPR) system was used to detect subsurfac
 
 I independently designed, implemented, and tested the Ground Penetrating Radar (GPR) systems, including:
 
-- Designed and evaluated multiple iterations of wideband antenna prototypes, culminating in a Balanced Antipodal Vivaldi Antenna (BAVA) design
+- Designed and evaluated multiple iterations of wideband antenna prototypes, culminating in a Balanced Antipodal Vivaldi Antenna (BAVA) design optimized for the Stepped Frequency Continuous Wave (SFCW) bandwidth
 - Developed GPR RF front end by integrating BAVA antennas with a Raspberry Pi 5b and a commercial Nano VNA
-- Developed a Python based software for signal processing and data visualization, including a live B-Scan for testing purposes as well as a wiggle-plot A-Scan snapshot triggered when an anomaly is detected
+- Developed a Python based software for SFCW signal processing and data visualization, including a live B-Scan for testing purposes as well as a wiggle-plot A-Scan snapshot triggered when an anomaly is detected
 - Testing and calibration of RF systems
 - Baseband analog signal amplification
 - System integration with other rover systems
